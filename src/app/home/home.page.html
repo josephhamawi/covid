@@ -29,7 +29,7 @@
   </div>
 
 
-<div class="info" *ngFor="let result of endlessCoronaArray">
+<div (ngModel)="endlessCoronaArray" class="info" *ngFor="let result of endlessCoronaArray">
   <ion-chip color="secondary" expand="full">
       <ion-avatar>
         <!-- <img src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y"> -->
@@ -42,7 +42,7 @@
       <!-- <img src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y"> -->
       <img src="../../assets/dateup.svg">
     </ion-avatar>
-    <ion-label ><span>DateUpdated : </span>{{result.DateUpdate | date}}</ion-label><br>
+    <ion-label ><span>DateUpdated : </span>{{result.DateUpdate}}</ion-label><br>
   </ion-chip>
 <ion-chip color="secondary">
   <ion-avatar>

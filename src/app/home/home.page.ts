@@ -51,15 +51,38 @@ export class HomePage {
 
   flagClick(countryName: String){
     if( countryName == 'world') {
+
       this.endlessCoronaArray = this.worldArray;
     } else if( countryName =='qatar'){
+
       this.endlessCoronaArray = this.qatarArray;
     }else if( countryName =='nigeria'){
+
       this.endlessCoronaArray = this.nigeriaArray;
     }else if( countryName =='lebanon'){
       this.endlessCoronaArray = this.qlebArray;
+
     }
+    console.log(this.endlessCoronaArray);
+    
   }
+  // flagClick(countryName: String){
+  //   if( countryName == 'world') {
+  //     this.endlessCoronaArray = this.worldArray;
+  //     this.endlessCoronaArray.find(x => x.key = countryName);
+  //   } else if( countryName =='qatar'){
+  //     this.endlessCoronaArray = this.qatarArray;
+  //     this.endlessCoronaArray.find(x =>x.key=countryName);
+  //   }else if( countryName =='nigeria'){
+  //     this.endlessCoronaArray = this.nigeriaArray;
+  //     this.endlessCoronaArray.find(x =>x.key=countryName);
+  //   }else if( countryName =='lebanon'){
+  //     this.endlessCoronaArray = this.qlebArray;
+  //     this.endlessCoronaArray.find(x =>x.key=countryName);
+  //   }
+  //   console.log(this.endlessCoronaArray);
+    
+  // }
 
   // flagClick(countryName: String){
 
