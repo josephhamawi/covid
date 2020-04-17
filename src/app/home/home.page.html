@@ -1,0 +1,88 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Covid-19
+    </ion-title>
+    
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" scrollY="false">
+
+<div class="container icons">
+
+    <ion-avatar size="small" (click)="flagClick('lebanon')">
+      <img src="../../assets/lebanon.svg" alt="">
+    </ion-avatar>
+
+    <ion-avatar (click)="flagClick('qatar')">
+      <img src="../../assets/qatar.svg" alt="">
+    </ion-avatar>
+
+    <ion-avatar (click)="flagClick('nigeria')">
+      <img src="../../assets/nigeria.svg" alt="">
+    </ion-avatar>
+
+    <ion-avatar (click)="flagClick('world')">
+      <img src="../../assets/world_wide.svg" alt="">
+    </ion-avatar>
+  </div>
+
+
+<div class="info" *ngFor="let result of endlessCoronaArray">
+  <ion-chip color="secondary" expand="full">
+      <ion-avatar>
+        <!-- <img src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y"> -->
+        <img src="../../assets/location.svg">
+        </ion-avatar>
+    <ion-label ><span>Country Name : </span>{{result.Name}}</ion-label><br>
+  </ion-chip>
+  <ion-chip color="secondary">
+    <ion-avatar>
+      <!-- <img src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y"> -->
+      <img src="../../assets/dateup.svg">
+    </ion-avatar>
+    <ion-label ><span>DateUpdated : </span>{{result.DateUpdate | date}}</ion-label><br>
+  </ion-chip>
+<ion-chip color="secondary">
+  <ion-avatar>
+    <!-- <img src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y"> -->
+    <img src="../../assets/cases.svg">
+  </ion-avatar>
+  <ion-label><span>Total Cases : </span> {{result.Confirmed | number}}</ion-label><br>
+</ion-chip>
+<ion-chip color="secondary">
+  <ion-avatar>
+    <!-- <img src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y"> -->
+    <img src="../../assets/cases.svg">
+  </ion-avatar>
+  <ion-label><span>New Cases : </span> {{result.Confirmed - result.History[1].Confirmed  | number}}</ion-label><br>
+</ion-chip>
+<ion-chip color="secondary">
+  <ion-avatar>
+    <!-- <img src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y"> -->
+    <img src="../../assets/death3.svg">
+  </ion-avatar>
+  <ion-label><span>Total Death : </span> {{result.Deaths  | number}}</ion-label><br>
+  
+</ion-chip>
+<ion-chip color="secondary">
+  <ion-avatar>
+    <!-- <img src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y"> -->
+    <img src="../../assets/recovered (1).svg">
+  </ion-avatar>
+  <ion-label><span>Total Recovered : </span> {{result.Recovered  | number}}</ion-label><br>
+</ion-chip>
+<ion-chip color="secondary">
+  <ion-avatar>
+    <!-- <img src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y"> -->
+    <img src="../../assets/popul.svg">
+  </ion-avatar>
+  <ion-label ><span>Population : </span>{{result.Population  | number}}</ion-label><br>
+</ion-chip>
+</div>
+
+</ion-content>
+<ion-footer>
+  <h6>Developed By ZooZoo</h6>
+</ion-footer>
