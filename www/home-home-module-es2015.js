@@ -69,7 +69,7 @@ HomePageModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (".info {\n  width: 100%;\n  height: 100%;\n  font-style: italic;\n  padding: 3%;\n}\n\n.icons {\n  width: 100%;\n  padding: 5%;\n  margin-bottom: 20px;\n}\n\n.icons ion-avatar {\n  position: relative;\n  float: left;\n  margin-right: 10px;\n}\n\nion-chip {\n  width: 100%;\n  height: 50px;\n  margin: 10px 0;\n  background: #ffbf00;\n  color: #191919;\n}\n\nspan {\n  font-weight: bold;\n}\n\nion-footer {\n  text-align: center;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9qb3NlcGhoYW1hd2kvRGV2ZWxvcG1lbnQvY292aWQvc3JjL2FwcC9ob21lL2hvbWUucGFnZS5zY3NzIiwic3JjL2FwcC9ob21lL2hvbWUucGFnZS5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksV0FBQTtFQUNBLFlBQUE7RUFDQSxrQkFBQTtFQUNBLFdBQUE7QUNDSjs7QURFQTtFQUNJLFdBQUE7RUFDQSxXQUFBO0VBQ0EsbUJBQUE7QUNDSjs7QURBSTtFQUVJLGtCQUFBO0VBQ0QsV0FBQTtFQUNBLGtCQUFBO0FDQ1A7O0FERUE7RUFDSSxXQUFBO0VBQ0EsWUFBQTtFQUNBLGNBQUE7RUFDQSxtQkFBQTtFQUNBLGNBQUE7QUNDSjs7QURFQTtFQUNBLGlCQUFBO0FDQ0E7O0FERUE7RUFDSSxrQkFBQTtBQ0NKIiwiZmlsZSI6InNyYy9hcHAvaG9tZS9ob21lLnBhZ2Uuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi5pbmZve1xuICAgIHdpZHRoOiAxMDAlO1xuICAgIGhlaWdodDogMTAwJTtcbiAgICBmb250LXN0eWxlOiBpdGFsaWM7XG4gICAgcGFkZGluZzogMyU7XG5cbiAgICB9XG4uaWNvbnN7XG4gICAgd2lkdGg6IDEwMCU7XG4gICAgcGFkZGluZzogNSU7XG4gICAgbWFyZ2luLWJvdHRvbTogMjBweDtcbiAgICBpb24tYXZhdGFye1xuICAgIFxuICAgICAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgICAgZmxvYXQ6bGVmdDtcbiAgICAgICBtYXJnaW4tcmlnaHQ6IDEwcHg7XG4gICAgfVxufVxuaW9uLWNoaXB7XG4gICAgd2lkdGg6IDEwMCU7XG4gICAgaGVpZ2h0OiA1MHB4O1xuICAgIG1hcmdpbjogMTBweCAwO1xuICAgIGJhY2tncm91bmQ6ICNmZmJmMDA7XG4gICAgY29sb3I6ICMxOTE5MTk7XG5cbn1cbnNwYW57XG5mb250LXdlaWdodDogYm9sZDtcbn1cblxuaW9uLWZvb3RlcntcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG59IiwiLmluZm8ge1xuICB3aWR0aDogMTAwJTtcbiAgaGVpZ2h0OiAxMDAlO1xuICBmb250LXN0eWxlOiBpdGFsaWM7XG4gIHBhZGRpbmc6IDMlO1xufVxuXG4uaWNvbnMge1xuICB3aWR0aDogMTAwJTtcbiAgcGFkZGluZzogNSU7XG4gIG1hcmdpbi1ib3R0b206IDIwcHg7XG59XG4uaWNvbnMgaW9uLWF2YXRhciB7XG4gIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgZmxvYXQ6IGxlZnQ7XG4gIG1hcmdpbi1yaWdodDogMTBweDtcbn1cblxuaW9uLWNoaXAge1xuICB3aWR0aDogMTAwJTtcbiAgaGVpZ2h0OiA1MHB4O1xuICBtYXJnaW46IDEwcHggMDtcbiAgYmFja2dyb3VuZDogI2ZmYmYwMDtcbiAgY29sb3I6ICMxOTE5MTk7XG59XG5cbnNwYW4ge1xuICBmb250LXdlaWdodDogYm9sZDtcbn1cblxuaW9uLWZvb3RlciB7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbn0iXX0= */");
+/* harmony default export */ __webpack_exports__["default"] = (".info {\n  width: 100%;\n  height: 100%;\n  font-style: italic;\n  padding: 3%;\n}\n\n.icons {\n  width: 100%;\n  padding: 5%;\n  margin-bottom: 20px;\n}\n\n.icons ion-avatar {\n  position: relative;\n  float: left;\n  margin-right: 10px;\n}\n\nion-chip {\n  width: 100%;\n  height: 50px;\n  margin: 10px 0;\n  background: #ffbf00;\n  color: #191919;\n}\n\nspan {\n  font-weight: bold;\n}\n\nion-footer {\n  text-align: center;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9qb3NlcGhoYW1hd2kvRGV2ZWxvcG1lbnQvY292aWQxOS9jb3ZpZC9zcmMvYXBwL2hvbWUvaG9tZS5wYWdlLnNjc3MiLCJzcmMvYXBwL2hvbWUvaG9tZS5wYWdlLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxXQUFBO0VBQ0EsWUFBQTtFQUNBLGtCQUFBO0VBQ0EsV0FBQTtBQ0NKOztBREVBO0VBQ0ksV0FBQTtFQUNBLFdBQUE7RUFDQSxtQkFBQTtBQ0NKOztBREFJO0VBRUksa0JBQUE7RUFDRCxXQUFBO0VBQ0Esa0JBQUE7QUNDUDs7QURFQTtFQUNJLFdBQUE7RUFDQSxZQUFBO0VBQ0EsY0FBQTtFQUNBLG1CQUFBO0VBQ0EsY0FBQTtBQ0NKOztBREVBO0VBQ0EsaUJBQUE7QUNDQTs7QURFQTtFQUNJLGtCQUFBO0FDQ0oiLCJmaWxlIjoic3JjL2FwcC9ob21lL2hvbWUucGFnZS5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmluZm97XG4gICAgd2lkdGg6IDEwMCU7XG4gICAgaGVpZ2h0OiAxMDAlO1xuICAgIGZvbnQtc3R5bGU6IGl0YWxpYztcbiAgICBwYWRkaW5nOiAzJTtcblxuICAgIH1cbi5pY29uc3tcbiAgICB3aWR0aDogMTAwJTtcbiAgICBwYWRkaW5nOiA1JTtcbiAgICBtYXJnaW4tYm90dG9tOiAyMHB4O1xuICAgIGlvbi1hdmF0YXJ7XG4gICAgXG4gICAgICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICAgICBmbG9hdDpsZWZ0O1xuICAgICAgIG1hcmdpbi1yaWdodDogMTBweDtcbiAgICB9XG59XG5pb24tY2hpcHtcbiAgICB3aWR0aDogMTAwJTtcbiAgICBoZWlnaHQ6IDUwcHg7XG4gICAgbWFyZ2luOiAxMHB4IDA7XG4gICAgYmFja2dyb3VuZDogI2ZmYmYwMDtcbiAgICBjb2xvcjogIzE5MTkxOTtcblxufVxuc3BhbntcbmZvbnQtd2VpZ2h0OiBib2xkO1xufVxuXG5pb24tZm9vdGVye1xuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbn0iLCIuaW5mbyB7XG4gIHdpZHRoOiAxMDAlO1xuICBoZWlnaHQ6IDEwMCU7XG4gIGZvbnQtc3R5bGU6IGl0YWxpYztcbiAgcGFkZGluZzogMyU7XG59XG5cbi5pY29ucyB7XG4gIHdpZHRoOiAxMDAlO1xuICBwYWRkaW5nOiA1JTtcbiAgbWFyZ2luLWJvdHRvbTogMjBweDtcbn1cbi5pY29ucyBpb24tYXZhdGFyIHtcbiAgcG9zaXRpb246IHJlbGF0aXZlO1xuICBmbG9hdDogbGVmdDtcbiAgbWFyZ2luLXJpZ2h0OiAxMHB4O1xufVxuXG5pb24tY2hpcCB7XG4gIHdpZHRoOiAxMDAlO1xuICBoZWlnaHQ6IDUwcHg7XG4gIG1hcmdpbjogMTBweCAwO1xuICBiYWNrZ3JvdW5kOiAjZmZiZjAwO1xuICBjb2xvcjogIzE5MTkxOTtcbn1cblxuc3BhbiB7XG4gIGZvbnQtd2VpZ2h0OiBib2xkO1xufVxuXG5pb24tZm9vdGVyIHtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xufSJdfQ== */");
 
 /***/ }),
 
@@ -92,18 +92,41 @@ __webpack_require__.r(__webpack_exports__);
 let HomePage = class HomePage {
     constructor(service) {
         this.service = service;
+        this.results = this.service.getData('world');
+        this.results.subscribe(resp => {
+            console.log('COVID19 Data: ', resp);
+            this.worldArray = resp;
+        });
+        this.results = this.service.getData('qatar');
+        this.results.subscribe(resp => {
+            console.log('COVID19 Data: ', resp);
+            this.qatarArray = resp;
+        });
         this.results = this.service.getData('nigeria');
         this.results.subscribe(resp => {
-            //console.log('COVID19 Data: ', resp);
-            this.endlessCoronaArray = resp;
+            console.log('COVID19 Data: ', resp);
+            this.nigeriaArray = resp;
+            this.endlessCoronaArray = this.nigeriaArray;
+        });
+        this.results = this.service.getData('lebanon');
+        this.results.subscribe(resp => {
+            console.log('COVID19 Data: ', resp);
+            this.qlebArray = resp;
         });
     }
     flagClick(countryName) {
-        this.results = this.service.getData(countryName);
-        this.results.subscribe(resp => {
-            //console.log('COVID19 Data: ', resp);
-            this.endlessCoronaArray = resp;
-        });
+        if (countryName == 'world') {
+            this.endlessCoronaArray = this.worldArray;
+        }
+        else if (countryName == 'qatar') {
+            this.endlessCoronaArray = this.qatarArray;
+        }
+        else if (countryName == 'nigeria') {
+            this.endlessCoronaArray = this.nigeriaArray;
+        }
+        else if (countryName == 'lebanon') {
+            this.endlessCoronaArray = this.qlebArray;
+        }
     }
 };
 HomePage.ctorParameters = () => [
